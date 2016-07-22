@@ -1,12 +1,12 @@
 # artifactory-check
 This is a tiny, multi-thread Java program I created to quickly check the integrity of artifacts in a Artifactory system export. I don't know if this is even necessary (maybe the export feature in Artifactory already performs such a check upon export) but I couldn't get any response from their mailing-list.
 
-=Requirements=
+## Requirements
 
-Maven 3.x (building & running)
-JDK 1.8 (running)
+* Maven 3.x (building & running)
+* JDK 1.8 (running)
 
-=Building=
+## Building
 
 Just run
 
@@ -14,7 +14,7 @@ Just run
 
 to create a self-executable JAR in target/artifactorycheck.jar
 
-=Running=
+## Running
 
 Just do
 
